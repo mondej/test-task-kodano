@@ -1,0 +1,21 @@
+{
+    "name": "kodano/module-mobile-coupon",
+    "description": "Mobile-only coupon functionality for Magento 2 - allows marking cart price rules as mobile-only",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.1",
+        "magento/framework": "^103.0",
+        "magento/module-sales-rule": "^101.0",
+        "magento/module-quote": "^101.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kodano\\MobileCoupon\\": ""
+        }
+    }
+}
